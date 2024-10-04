@@ -1,0 +1,74 @@
+
+/*media query*/
+/* 
+/* TAblette */
+@media only screen and (max-width: 900px) {
+    header{
+        grid-template-columns: 1fr 1fr;
+    
+    }
+    .titre{
+        font-size: 50px;
+        padding: 0px 0px 0px 20px;
+
+    }
+    .titre2{
+        font-size: 20px;
+        padding: 0px 0px 0px 20px;
+    }
+}
+
+/* Mobile */
+@media only screen and (max-width: 600px) {
+    header{
+        grid-template-columns: 1fr;
+    }
+      
+}
+.titre{
+    font-size: 50px;
+    padding: 0px 0px 0px 20px;
+
+}
+.titre2{
+    font-size: 20px;
+    padding: 0px 0px 0px 20px;
+}
+
+
+
+
+
+
+/* TAblette */
+@media only screen and (max-width: 900px) {
+    main{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* Mobile */
+@media only screen and (max-width: 600px) {
+    main{
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+
+
+
+/* TAblette */
+@media only screen and (max-width: 900px) {
+    footer{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* Mobile */
+@media only screen and (max-width: 600px) {
+    footer{
+        grid-template-columns: 1fr;
+    }
+} 

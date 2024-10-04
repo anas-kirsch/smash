@@ -1,0 +1,151 @@
+/* .test{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+} */
+
+
+body{
+    margin: 0px;
+}
+
+header{
+
+    background-image: linear-gradient(#DB2929,#602614);
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    z-index: 0;
+
+}   
+
+.titre{  /*grand titre super smash css*/
+    display: flex;
+    color: white;
+    font-family: Irish Grover;
+    font-size: 90px;
+    text-align: left;
+    justify-content: center;
+    padding: 0px 0px 0px 110px ;
+    margin-bottom: 0px;
+}
+
+.titre2{ /* petit titre header */
+       color: white;
+       font-family: Irish Grover;
+       font-size: 30px;
+       padding: 0px 0px 0px 190px;
+}
+
+.align{ /* align les titres nan*/
+    align-items: left;
+    justify-content: center ;
+}
+
+
+.burger{ /* css de limage burger smash*/
+   padding: 0px 0px 0px 0px ;
+   height: 500px;
+   z-index: 2;
+   rotate: 10deg;
+}
+
+.oignon{  /* css oignon en haut a gauche de header*/
+    position: absolute;
+    height: 240px;
+    top: -45px;
+    left: 40px;
+    rotate: 25deg;
+}
+
+.oignon2{  /* oignon 2 derrier le burger*/
+    position: absolute;
+    top: 250px;
+    right: 70px;
+    z-index: 1;
+    height: 240px;
+    rotate: 30deg;
+}
+
+
+main{ /* carractere du main*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(#DD6826,#C55B1F);
+    height: 100vh;
+
+}
+
+#titrezone2{   /* slogan main*/
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 30px;
+        font-family: Irish Grover;
+        padding-top: 20px;
+     
+}
+
+#titre2zone2{ /*titre main*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 60px;
+    font-family: Irish Grover;
+    margin-bottom: 30px;
+    margin-top: 15px;
+
+}
+
+#carte{ /* carte google */
+    display: flex;
+    height: 39  0px;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.logo{ /* logo reseau*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px 0px 40px 0px;
+    height: 80px;
+    
+}
+
+footer{ /* footer fond et disposition*/
+    display: flex;
+    height: 60vh;
+    background-color: beige;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-family: Irish Grover;
+    padding: 50px;
+
+}
+
+.textezone3{ /* footer texte de gauche*/
+        font-size: 25px;
+        text-align: justify;
+}
+
+.titrezone3{ /* nom site au milieu footer*/
+        padding-left: inherit;
+        font-size: 60px;
+        color: #404040;
+        letter-spacing: 15px;
+}
+
+.texte2zone3{ /* texte2 footer a droite*/
+        font-size: 25px ;
+        text-align: justify;
+
+}
